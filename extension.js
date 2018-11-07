@@ -9,10 +9,12 @@ let formatOptions = {
     lang: 'velocity',
     apacheVelocity: true,
     cssinsertlines: true,
-    wrap: 100,
     comments: 'indent',
     commline: false,
     style: 'indent',
+    wrap: 0,
+    inchar: " ",
+    insize: 2
 };
 
 function positionFactory(line, char) {
